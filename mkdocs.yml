@@ -1,0 +1,79 @@
+# Project information
+site_name: 东林机电辩论队
+site_description: 东北林业大学机电辩论队
+site_url: https://github.com/ittuann/NEFU-CMEE-DebateTeam
+
+# Repository
+repo_name: ittuann/NEFU-CMEE-DebateTeam
+repo_url: https://github.com/ittuann/NEFU-CMEE-DebateTeam
+edit_uri: master/docs
+
+# Configuration
+theme:
+  name: material
+  language: zh
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - content.code.copy
+    - instant
+    - header.autohide
+    - search.suggest
+    - search.share
+  logo: assets/images/favicon.png
+  favicon: assets/images/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+site_author: ittuann
+copyright: CC BY-NC-SA 4.0
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - pymdownx.superfences
+  - markdown.extensions.def_list
+  - meta
+  - toc:
+      permalink: true
+
+plugins:
+  - search:
+      lang: ja
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: iso_date
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ittuann
+
+# Navigation
+nav:
+  - 首页: index.md
+  # - 贡献指南:
+  - 辩论类型:
+      - 事实辩: type/factual.md
