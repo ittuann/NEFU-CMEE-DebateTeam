@@ -1,12 +1,12 @@
 # Project information
 site_name: 东林机电辩论队
 site_description: 东北林业大学机电辩论队
-site_url: https://github.com/ittuann/NEFU-CMEE-DebateTeam
+site_url: https://ittuann.github.io/NEFU-CMEE-DebateTeam/
 
 # Repository
 repo_name: ittuann/NEFU-CMEE-DebateTeam
 repo_url: https://github.com/ittuann/NEFU-CMEE-DebateTeam
-edit_uri: master/docs
+edit_uri: blob/main/docs
 
 # Configuration
 theme:
