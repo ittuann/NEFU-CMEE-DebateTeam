@@ -1,17 +1,16 @@
 # Project information
 site_name: 东林机电辩论队
 site_description: 东北林业大学机电辩论队
-site_url: https://ittuann.github.io/NEFU-CMEE-DebateTeam/
+site_url: https://ittuann.github.io/NEFU-CMEE-DebateTeam
 
 # Repository
 repo_name: ittuann/NEFU-CMEE-DebateTeam
 repo_url: https://github.com/ittuann/NEFU-CMEE-DebateTeam
-edit_uri: blob/main/docs
+edit_uri: edit/main/docs/
 
 # Configuration
 theme:
   name: material
-  language: zh
   font:
     text: Roboto
     code: Roboto Mono
@@ -28,6 +27,7 @@ theme:
   favicon: assets/images/favicon.png
   icon:
     repo: fontawesome/brands/github
+  language: zh
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -50,9 +50,23 @@ copyright: CC BY-NC-SA 4.0
 # Extensions
 markdown_extensions:
   - admonition
-  - codehilite
   - footnotes
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.betterem
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - markdown.extensions.def_list
   - meta
   - toc:
@@ -68,6 +82,10 @@ plugins:
 # Extra
 extra:
   social:
+    - icon: fontawesome/brands/trello
+      link: https://trello.com
+    - icon: fontawesome/brands/blogger-b
+      link: https://ittuann.github.io
     - icon: fontawesome/brands/github
       link: https://github.com/ittuann
 

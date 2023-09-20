@@ -16,7 +16,9 @@
 
 想要添加内容，请提交 [Pull Request](https://github.com/ittuann/NEFU-CMEE-DebateTeam/pulls)
 
-注意在提交前，请仔细阅读提交引导文档。
+!!! note "添加前请注意"
+
+    请仔细阅读提交引导文档
 
 ## 致谢
 
