@@ -1,7 +1,7 @@
 # Project information
 site_name: 东林机电辩论队
 site_description: 东北林业大学机电辩论队
-site_url: https://ittuann.github.io/NEFU-CMEE-DebateTeam
+site_url: https://ittuann.github.io/NEFU-CMEE-DebateTeam/
 
 # Repository
 repo_name: ittuann/NEFU-CMEE-DebateTeam
@@ -19,6 +19,7 @@ theme:
     - navigation.footer
     - navigation.tracking
     - content.code.copy
+    - content.action.edit
     - instant
     - header.autohide
     - search.suggest
@@ -27,6 +28,11 @@ theme:
   favicon: assets/images/favicon.png
   icon:
     repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+  palette:
+    primary: blue
+    accent: blue
   language: zh
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -75,9 +81,11 @@ markdown_extensions:
 plugins:
   - search:
       lang: ja
+      indexing: titles
   - git-revision-date-localized:
       enable_creation_date: true
       type: iso_date
+  - awesome-pages
 
 # Extra
 extra:
